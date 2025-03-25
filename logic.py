@@ -27,7 +27,7 @@ class Logic(QMainWindow,Ui_Calculator):
         self.nine_button.clicked.connect(self.nine_button_clicked)
         self.percentage_button.clicked.connect(self.percentage_button_clicked)
         self.negative_postive_button.clicked.connect(self.negative_postive_button_clicked)
-        self.ac_button.clicked.connect(self.ac_button)
+        self.ac_button.clicked.connect(self.ac_button_clicked)
 
 
     def equal_button_clicked(self):
